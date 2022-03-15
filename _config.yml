@@ -7,11 +7,18 @@ first_name: Hakan
 middle_name:
 last_name: Bayraksan
 email: hakan@hakanbayraksan.com
+<<<<<<< HEAD
 description: # the ">" symbol means to ignore newlines until "footer_text:"
+=======
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+>>>>>>> parent of c52afcb (Update _config.yml)
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords:  # add your own keywords or leave empty
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🥝 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -52,10 +59,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: hbayraksan # your GitHub user name
+github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: hakanbayraksan # your Twitter handle
-linkedin_username: hakanbayraksan # your LinkedIn user name
+twitter_username: # your Twitter handle
+linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -69,7 +76,13 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
+<<<<<<< HEAD
 contact_note: # You can even add a little note about which of these is the best way to reach you.
+=======
+contact_note: >
+  You can even add a little note about which of these is the best way to reach you.
+
+>>>>>>> parent of c52afcb (Update _config.yml)
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
@@ -79,8 +92,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # your blog must have a name for it to show up in the nav bar
-blog_description:
+blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
+blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -88,7 +101,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: # put your disqus shortname
+disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
@@ -200,8 +213,13 @@ jekyll-archives:
 
 scholar:
 
+<<<<<<< HEAD
   last_name: Hakan
   first_name: Bayraksan
+=======
+  last_name: Einstein
+  first_name: [Albert, A.]
+>>>>>>> parent of c52afcb (Update _config.yml)
 
   style: apa
   locale: en
